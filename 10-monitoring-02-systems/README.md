@@ -91,6 +91,18 @@ Push
 #
 7.
 
+<img width="1461" height="1111" alt="image" src="https://github.com/user-attachments/assets/b73096d3-72dc-4059-9387-2f8ff66588b8" />
+
+#
+8.
+
+<img width="1470" height="1043" alt="image" src="https://github.com/user-attachments/assets/eb5016a5-6c40-4c1e-b2ce-716043c96c7a" />
+
+#
+9.
+
+<img width="886" height="453" alt="image" src="https://github.com/user-attachments/assets/44da02f0-4c0c-4448-ba9c-f787f1d71a10" />
+
 
 
 
