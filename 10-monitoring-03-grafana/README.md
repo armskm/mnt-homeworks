@@ -38,3 +38,7 @@ node_filesystem_free_bytes{fstype="ext4"}
 ### Задание 3
 
 <img width="2085" height="681" alt="image" src="https://github.com/user-attachments/assets/7833f33c-a6ef-4b95-87fc-71c4e78ffbb3" />
+
+### Задание 4
+
+
