@@ -41,4 +41,4 @@ node_filesystem_free_bytes{fstype="ext4"}
 
 ### Задание 4
 
-
+[Dashboard](https://github.com/armskm/mnt-homeworks/blob/main/10-monitoring-03-grafana/dashboard.json)
