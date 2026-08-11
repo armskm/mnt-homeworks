@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app24
+  labels:
+    app: app24
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: app-24
+  template:
+    metadata:
+      labels:
+        app: app-24
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:latest
+        ports:
+        - containerPort: 80
+      - name: multitool
+        image: wbitt/network-multitool:latest
+        env:
+          - name: HTTP_PORT
+            value: "2480"
+          - name: HTTPS_PORT
+            value: "24443"
+        ports:
+          - containerPort: 2480
+            name: http-port
+          - containerPort: 24443
+            name: https-port
