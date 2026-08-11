@@ -22,6 +22,20 @@
 
 ### Задание 2. Создать Deployment и обеспечить старт основного контейнера при выполнении условий
 
+Создал [файл nginx-deployment.yml](./app/nginx-deployment.yml)
+
+Проверил запуск контейнера nginx без сервиса:
+
+<img width="1023" height="531" alt="image" src="https://github.com/user-attachments/assets/31835554-2368-4866-b3d8-75bef80a503e" />
+
+Создал [файл nginx-svc.yml](./app/nginx-svc.yml)
+
+Проверил ещё раз:
+
+<img width="738" height="252" alt="image" src="https://github.com/user-attachments/assets/1ffd6ef4-ab4b-4040-8032-8963c4ea6dd4" />
+
+Всё ОК!
+
 
 
 
