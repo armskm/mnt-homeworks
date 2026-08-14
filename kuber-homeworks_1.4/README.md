@@ -12,6 +12,16 @@
 
 <img width="687" height="599" alt="image" src="https://github.com/user-attachments/assets/a02f6ef9-670c-4376-a5c1-437f08f4b991" />
 
+## **Задание 2: Настройка Ingress**
+
+В моей версии MicroK8s v1.35.6 revision 9072 по дефолту устанавливает ingress traefic, поэтому решил вручную поставить nginx ingress командой:
+
+```kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.9.0/deploy/static/provider/cloud/deploy.yaml```
+
+Поэтому при curl пришлось учитывать порт, на котором работает контроллер ingress. Но суть такая же:
+
+
+
 
 
 
