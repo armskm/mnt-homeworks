@@ -31,6 +31,12 @@ PV не удалился, а перешёл в состояние Released, по
 
 Файл не удалился, потому что Type: HostPath
 
+## Задание 3. StorageClass
+
+[файл sc.yaml](./app/sc.yaml)
+
+
+
 
 
 
