@@ -35,6 +35,7 @@ PV не удалился, а перешёл в состояние Released, по
 
 [файл sc.yaml](./app/sc.yaml)
 
+<img width="1116" height="528" alt="image" src="https://github.com/user-attachments/assets/934c051a-cc59-4556-917f-dbe14daff218" />
 
 
 
