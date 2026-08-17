@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: data-exchange
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: app21
+  template:
+    metadata:
+      labels:
+        app: app21
+    spec:
+      containers:
+      - name: busybox
+        image: busybox
+        command: ["/bin/sh", "-c"]
+        args: ["while true; do date >> /output/date.txt; sleep 5; done"]
+        volumeMounts:
+        - name: volume21
+          mountPath: /output
+      - name: multitool
+        image: wbitt/network-multitool:latest
+        command: ["/bin/sh", "-c"]
+        args: ["tail -f /input/date.txt"]
+        volumeMounts:
+        - name: volume21
+          mountPath: /input
+      volumes:
+      - name: volume21
+        emptyDir: {}
