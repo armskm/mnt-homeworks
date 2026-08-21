@@ -15,6 +15,7 @@
 [файл ingress-tls.yaml](./app/ingress-tls.yaml)
 
 
+<img width="549" height="287" alt="image" src="https://github.com/user-attachments/assets/bddb53a2-470d-44ef-a267-158fc60b0e2b" />
 
 
 
