@@ -1,0 +1,6 @@
+image:
+  name: nginx
+  tag: 1.25
+replicas: 1
+deployment:
+  label: nginx24
