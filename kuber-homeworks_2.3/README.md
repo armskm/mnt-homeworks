@@ -20,7 +20,7 @@
 
 ## **Задание 3: Настройка RBAC**
 
-[файл srole-pod-reader.yaml](./app/role-pod-reader.yaml)
+[файл role-pod-reader.yaml](./app/role-pod-reader.yaml)
 
 [файл rolebinding-developer.yaml](./app/rolebinding-developer.yaml)
 
@@ -34,6 +34,9 @@ microk8s kubectl config set-credentials user23 --client-certificate=developer.cr
 microk8s kubectl config set-context user23 --cluster=microk8s-cluster --user=user23
 microk8s config > /root/.kube/config
 ```
+
+<img width="574" height="246" alt="image" src="https://github.com/user-attachments/assets/cdb9a40d-e46c-4c37-ba0a-d750fb379c5c" />
+
 
 
 
