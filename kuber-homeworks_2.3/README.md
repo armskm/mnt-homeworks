@@ -8,6 +8,15 @@
 
 <img width="831" height="381" alt="image" src="https://github.com/user-attachments/assets/c2a31c5d-0bff-485c-ac90-1d4363991292" />
 
+## **Задание 2: Настройка HTTPS с Secrets** 
+
+[файл secret-tls.yaml](./app/secret-tls.yaml)
+
+[файл ingress-tls.yaml](./app/ingress-tls.yaml)
+
+
+
+
 
 
 
