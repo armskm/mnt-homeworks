@@ -9,6 +9,30 @@
 
 ## Ответ
 
+1. Подготовка работы кластера из 5 нод: 1 мастер и 4 рабочие ноды.
+
+- Подготавливаю инфраструктуру через terraform.
+
+Инфраструктура описана в манифестах
+
+[main.tf](./src/main.tf)
+[variables.tf](./src/variables.tf)
+[outputs.tf](./src/outputs.tf)
+
+
+
+```bash
+# Шпаргалка
+# Выпуск нового токена для сервисной учетки
+yc iam service-account list
+yc iam create-token --impersonate-service-account-id 
+
+# Развернуть описанную инфраструктуру
+terraform init
+terraform validate
+terraform plan
+terraform apply
+```
 
 <img width="975" height="346" alt="image" src="https://github.com/user-attachments/assets/535541cd-d577-4f77-bda1-a770c0b784ac" />
 
