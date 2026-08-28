@@ -40,8 +40,10 @@ terraform apply
      ansible-playbook -u ubuntu --private-key /root/.ssh/id_rsa -i inventory/mycluster/inventory.ini cluster.yml -b -v
      ```
 - Получаю установленный кластер k8s:
-<img width="975" height="346" alt="image" src="https://github.com/user-attachments/assets/535541cd-d577-4f77-bda1-a770c0b784ac" />
+
+![screen](./screen/ans-rez.png)
 
 - Проверяю установку на мастере:
-<img width="673" height="622" alt="image" src="https://github.com/user-attachments/assets/eb59cf83-b80d-4c89-8670-6df9cf9463b2" />
+
+![screen](./screen/get-nodes.png)
 
