@@ -20,3 +20,5 @@ kubectl apply -f deployment.yaml -f svc.yaml -f np.yaml
 ```
 6. Проверяю работу:
 
+<img width="1104" height="954" alt="image" src="https://github.com/user-attachments/assets/52c9d710-5247-4858-8bbd-5e3d1c65f4a3" />
+
